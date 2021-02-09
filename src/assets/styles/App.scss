@@ -1,5 +1,17 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
 body {
   margin: 0;
-  background-color: red;
-  color: white;
+  font-family: var(--theme-font);
+  background-color: var(--main-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
 }
